@@ -172,7 +172,7 @@ if __name__ == '__main__':
         #os._exit(0)
 
     username = 'sheeplover'   #str(sys.argv[1])
-    thread_number = 5 #int(sys.argv[2])
+    thread_number = 8 #int(sys.argv[2])
     print(f"Майнер для пользователя {username} запущен с {thread_number} потоком(и).")
 
     hashrate_array = multiprocessing.Array("d", thread_number)
